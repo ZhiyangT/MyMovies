@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/editTextAddTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Title" />
+
+    <EditText
+        android:id="@+id/editTextAddYear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Year" />
+
+    <EditText
+        android:id="@+id/editTextAddGenre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Genre" />
+
+    <EditText
+        android:id="@+id/editTextAddRated"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Rated" />
+
+    <EditText
+        android:id="@+id/editTextWatch_on"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Watch On" />
+
+    <EditText
+        android:id="@+id/editTextAddTheatre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Theatre" />
+
+    <EditText
+        android:id="@+id/editTextAddDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Description" />
+
+    <EditText
+        android:id="@+id/editTextRating"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter Rating"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/buttonAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add" />
+</LinearLayout>
